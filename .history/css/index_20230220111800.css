@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.bt-array-title {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.bt-array-content {
+    background: red;
+}

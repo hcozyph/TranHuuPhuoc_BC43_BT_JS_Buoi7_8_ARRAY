@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+
+    background-image: url(../img/1.jpg);
+    background-size: vocer;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 1000px;
+}
+
+.bt-array-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* .bt-array-content {
+} */

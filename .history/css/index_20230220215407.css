@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 1000px;
+    padding-top: 15px;
+}
+
+.bt-array-title {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 80px 10px 80px 10px;
+
+    font-size: 40px;
+    font-weight: 500;
+    /* background-color: red; */
+    color: aliceblue;
+    background: rgb(194, 215, 140);
+    background: linear-gradient(
+        90deg,
+        rgba(194, 215, 140, 0.9) 0%,
+        rgba(49, 84, 26, 0.9) 10%,
+        rgba(41, 75, 18, 0.9) 11%,
+        rgba(30, 61, 7, 0.9) 14%,
+        rgba(19, 38, 5, 0.9) 17%,
+        rgba(19, 38, 5, 0.9) 21%,
+        rgba(49, 84, 26, 0.9) 28%,
+        rgba(194, 215, 140, 0.9) 34%,
+        rgba(49, 84, 26, 0.9) 40%,
+        rgba(19, 38, 5, 0.9) 49%,
+        rgba(19, 38, 5, 0.9) 53%,
+        rgba(49, 84, 26, 0.9) 59%,
+        rgba(30, 61, 7, 0.9) 63%,
+        rgba(194, 215, 140, 0.9) 69%,
+        rgba(49, 84, 26, 0.9) 74%,
+        rgba(30, 61, 7, 0.9) 78%,
+        rgba(19, 38, 5, 0.9) 82%,
+        rgba(19, 38, 5, 0.9) 89%,
+        rgba(49, 84, 26, 0.9) 92%,
+        rgba(194, 215, 140, 0.9) 100%,
+        rgba(194, 215, 140, 0.9) 100%
+    );
+}
+
+/* .bt-array-content {
+} */

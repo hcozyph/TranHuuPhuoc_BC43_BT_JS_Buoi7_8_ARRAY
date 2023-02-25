@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 1000px;
+}
+
+.bt-array-title {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: red;
+    color: aliceblue;
+}
+
+/* .bt-array-content {
+} */

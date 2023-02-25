@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 1000px;
+    padding-top: 15px;
+}
+
+.bt-array-title {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 80px 10px 80px 10px;
+
+    font-size: 40px;
+    font-weight: 500;
+    /* background-color: red; */
+    color: aliceblue;
+    background: rgb(194, 215, 140);
+    background: linear-gradient(
+        90deg,
+        rgba(194, 215, 140, 1) 0%,
+        rgba(194, 215, 139, 1) 0%,
+        rgba(127, 159, 87, 1) 9%,
+        rgba(76, 119, 48, 1) 17%,
+        rgba(80, 138, 56, 1) 29%,
+        rgba(23, 48, 4, 1) 49%,
+        rgba(65, 115, 49, 1) 63%,
+        rgba(80, 130, 59, 1) 74%,
+        rgba(156, 173, 110, 1) 95%
+    );
+}
+
+/* .bt-array-content {
+} */
