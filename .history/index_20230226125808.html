@@ -13,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;700;800;900&display=swap"
             rel="stylesheet"
         />
 
@@ -39,11 +39,7 @@
         <div class="container">
             <div class="bt-array-top">
                 <div class="bt-array-title pt-2 shadow-lg">
-                    <h1
-                        class="text-center shadow-lg p-2"
-                        ;
-                        style="font-weight: bold"
-                    >
+                    <h1 class="text-center shadow-lg p-2 fw-5" ;>
                         BÀI TẬP ARRAY
                     </h1>
                 </div>
@@ -51,7 +47,7 @@
                 <div
                     id="mainArray"
                     class="alert alert-success rounded-3 shadow p-4"
-                    style="margin: 20px 10%"
+                    style="margin: 20px auto; width: 75%"
                 >
                     <div class="row row-cols-3">
                         <div class="col-8">
@@ -85,9 +81,7 @@
                 </div>
             </div>
 
-            <div
-                class="bt-array-content p-xl-5 p-4 mx-lg-5 mx-md-4 mx-2 rounded-3"
-            >
+            <div class="bt-array-content p-xl-5 p-4 mx-5 rounded-3">
                 <div class="accordion" id="accordionExample">
                     <!-- Task 1: Tính tổng số dương -->
                     <div class="accordion-item mt-xl-3 mt-md-4 mt-4" id="bt1">
@@ -100,8 +94,7 @@
                                 aria-expanded="true"
                                 aria-controls="collapseOne"
                             >
-                                <div class="numberList">1</div>
-                                Tổng của các giá trị dương
+                                1️⃣ Tổng của các giá trị dương
                             </button>
                         </h2>
                         <div
@@ -113,7 +106,7 @@
                             <div class="accordion-body row py-2">
                                 <div class="col-12 my-3">
                                     <button
-                                        class="btn btn-success btnCustom py-2"
+                                        class="btn btn-success py-2 w-25 w-sm-100"
                                         id="t1-btn"
                                         onclick="sumPositive()"
                                     >
@@ -143,8 +136,7 @@
                                 aria-expanded="false"
                                 aria-controls="collapseTwo"
                             >
-                                <div class="numberList">2</div>
-                                Đếm tổng số dương có trong mảng
+                                2️⃣ Đếm tổng số dương có trong mảng
                             </button>
                         </h2>
                         <div
@@ -156,7 +148,7 @@
                             <div class="accordion-body row py-2">
                                 <div class="col-12 my-3">
                                     <button
-                                        class="btn btn-success btnCustom py-2"
+                                        class="btn btn-success w-25 py-2"
                                         id="t2-btn"
                                         onclick="countPositive ()"
                                     >
@@ -186,8 +178,7 @@
                                 aria-expanded="false"
                                 aria-controls="collapseThree"
                             >
-                                <div class="numberList">3</div>
-                                Tìm giá trị nhỏ nhất
+                                3️⃣ Tìm giá trị nhỏ nhất
                             </button>
                         </h2>
                         <div
@@ -199,7 +190,7 @@
                             <div class="accordion-body row py-2">
                                 <div class="col-12 my-3">
                                     <button
-                                        class="btn btn-success btnCustom py-2"
+                                        class="btn btn-success w-25 py-2"
                                         id="t3-btn"
                                         onclick="findMin()"
                                     >
@@ -229,8 +220,7 @@
                                 aria-expanded="true"
                                 aria-controls="collapseFour"
                             >
-                                <div class="numberList">4</div>
-                                Tìm giá trị dương nhỏ nhất
+                                4️⃣ Tìm giá trị dương nhỏ nhất
                             </button>
                         </h2>
                         <div
@@ -242,7 +232,7 @@
                             <div class="accordion-body row py-2">
                                 <div class="col-12 my-3">
                                     <button
-                                        class="btn btn-success btnCustom py-2"
+                                        class="btn btn-success w-25 py-2"
                                         id="t4-btn"
                                         onclick="findMinPositive()"
                                     >
@@ -272,8 +262,7 @@
                                 aria-expanded="false"
                                 aria-controls="collapseFive"
                             >
-                                <div class="numberList">5</div>
-                                Tìm số chẵn cuối cùng
+                                5️⃣ Tìm số chẵn cuối cùng
                             </button>
                         </h2>
                         <div
@@ -285,7 +274,7 @@
                             <div class="accordion-body row py-2">
                                 <div class="col-12 my-3">
                                     <button
-                                        class="btn btn-success btnCustom py-2"
+                                        class="btn btn-success w-25 py-2"
                                         id="t5-btn"
                                         onclick="lastEvenValue()"
                                     >
@@ -315,8 +304,7 @@
                                 aria-expanded="false"
                                 aria-controls="collapseSix"
                             >
-                                <div class="numberList">6</div>
-                                Đổi chỗ
+                                6️⃣ Đổi chỗ
                             </button>
                         </h2>
                         <div
@@ -346,7 +334,7 @@
 
                                 <div class="col-12 my-3">
                                     <button
-                                        class="btn btn-success btnCustom py-2"
+                                        class="btn btn-success w-25 py-2"
                                         id="t6-btn"
                                         onclick="swapPosition()"
                                     >
@@ -376,8 +364,7 @@
                                 aria-expanded="false"
                                 aria-controls="collapseSeven"
                             >
-                                <div class="numberList">7</div>
-                                Sắp xếp tăng dần
+                                7️⃣ Sắp xếp tăng dần
                             </button>
                         </h2>
                         <div
@@ -389,7 +376,7 @@
                             <div class="accordion-body row py-2">
                                 <div class="col-12 my-3">
                                     <button
-                                        class="btn btn-success btnCustom py-2"
+                                        class="btn btn-success w-25 py-2"
                                         id="t7-btn"
                                         onclick="sortByAscending()"
                                     >
@@ -419,8 +406,7 @@
                                 aria-expanded="true"
                                 aria-controls="collapseEight"
                             >
-                                <div class="numberList">8</div>
-                                Tìm số nguyên tố đầu tiên
+                                8️⃣ Tìm số nguyên tố đầu tiên
                             </button>
                         </h2>
                         <div
@@ -432,7 +418,7 @@
                             <div class="accordion-body row py-2">
                                 <div class="col-12 my-3">
                                     <button
-                                        class="btn btn-success btnCustom py-2"
+                                        class="btn btn-success w-25 py-2"
                                         id="t8-btn"
                                         onclick="firstPrimeNumber()"
                                     >
@@ -462,8 +448,7 @@
                                 aria-expanded="false"
                                 aria-controls="collapseNine"
                             >
-                                <div class="numberList">9</div>
-                                Đếm số nguyên
+                                9️⃣ Đếm số nguyên
                             </button>
                         </h2>
                         <div
@@ -475,7 +460,7 @@
                             <div class="accordion-body row py-2">
                                 <div class="col-12 my-3">
                                     <button
-                                        class="btn btn-success btnCustom py-2"
+                                        class="btn btn-success w-25 py-2"
                                         id="t9-btn"
                                         onclick="countInteger()"
                                     >
@@ -505,8 +490,7 @@
                                 aria-expanded="false"
                                 aria-controls="collapseTen"
                             >
-                                <div class="numberList">10</div>
-                                So sánh lượng số âm và số dương
+                                🔟 So sánh lượng số âm và số dương
                             </button>
                         </h2>
                         <div
@@ -518,7 +502,7 @@
                             <div class="accordion-body row py-2">
                                 <div class="col-12 my-3">
                                     <button
-                                        class="btn btn-success btnCustom py-2"
+                                        class="btn btn-success w-25 py-2"
                                         id="t10-btn"
                                         onclick="compareValue()"
                                     >

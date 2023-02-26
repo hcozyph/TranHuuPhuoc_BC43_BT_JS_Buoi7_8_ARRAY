@@ -87,26 +87,5 @@
     font-weight: 500;
     font-size: 15px;
     text-align: center;
-    border-radius: 14%;
-}
-
-@media only screen and (max-width: 479px) {
-    .btnCustom {
-        width: 100%;
-    }
-}
-@media only screen and (min-width: 740px) and (max-width: 1023px) {
-    .btnCustom {
-        width: 50%;
-    }
-}
-@media only screen and (max-width: 739px) {
-    .btnCustom {
-        width: 100%;
-    }
-}
-@media only screen and (min-width: 1024px) {
-    .btnCustom {
-        width: 250px;
-    }
+    border-radius: 10%;
 }
