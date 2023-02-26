@@ -77,10 +77,8 @@ function findMinPositive() {
 
 /* Task-5: find out the last even value in user array */
 function lastEvenValue() {
-    //--STEP 1: pick up even number then add to array
-    //--STEP 2: pick up the last position value 
-    //--STEP 3: print resuslt
 
+    //--STEP 1: pick up even number then add to array
     for (var i = [], flag = true, r = 0; r < mainArray.length; r++) {
         if (mainArray[r] % 2 !== 0) {
             flag = false;
@@ -88,14 +86,19 @@ function lastEvenValue() {
             flag = true;
             i.push(mainArray[r]);
         }
-    }
 
-    if (flag == true) {
+    }
+    //--STEP 2: pick up the last position value 
+    if (flag = true) {
         var n = i[(i.length - 1)];
         getEle('t5-result').innerHTML = 'Số chẵn cuối cùng là  ' + n;
-    } else if (flag == false) {
+    } else {
         getEle('t5-result').innerHTML = 'Mảng này không chứa số chẵn !!';
+
     }
+
+    //--STEP 3: print resuslt
+
 }
 /* End--Task-5: find out the last even value in user array */
 

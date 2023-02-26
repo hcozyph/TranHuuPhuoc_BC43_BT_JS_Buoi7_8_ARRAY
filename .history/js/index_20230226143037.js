@@ -90,10 +90,10 @@ function lastEvenValue() {
         }
     }
 
-    if (flag == true) {
+    if (flag = true) {
         var n = i[(i.length - 1)];
         getEle('t5-result').innerHTML = 'Số chẵn cuối cùng là  ' + n;
-    } else if (flag == false) {
+    } else {
         getEle('t5-result').innerHTML = 'Mảng này không chứa số chẵn !!';
     }
 }

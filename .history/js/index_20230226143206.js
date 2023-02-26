@@ -82,7 +82,7 @@ function lastEvenValue() {
     //--STEP 3: print resuslt
 
     for (var i = [], flag = true, r = 0; r < mainArray.length; r++) {
-        if (mainArray[r] % 2 !== 0) {
+        if (mainArray[r] % 2 != 0) {
             flag = false;
         } else if (mainArray[r] % 2 == 0) {
             flag = true;
@@ -90,10 +90,10 @@ function lastEvenValue() {
         }
     }
 
-    if (flag == true) {
+    if (flag = true) {
         var n = i[(i.length - 1)];
         getEle('t5-result').innerHTML = 'Số chẵn cuối cùng là  ' + n;
-    } else if (flag == false) {
+    } else {
         getEle('t5-result').innerHTML = 'Mảng này không chứa số chẵn !!';
     }
 }
