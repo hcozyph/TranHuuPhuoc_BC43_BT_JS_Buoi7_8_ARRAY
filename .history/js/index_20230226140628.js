@@ -92,6 +92,9 @@ function lastEvenValue() {
             getEle('t5-result').innerHTML = 'Mảng này không chứa số chẵn !!';
         }
     }
+
+
+
 }
 /* End--Task-5: find out the last even value in user array */
 

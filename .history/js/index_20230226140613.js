@@ -81,17 +81,17 @@ function lastEvenValue() {
     //--STEP 1: pick up even number then add to array
     for (var i = [], r = 0; r < mainArray.length; r++) {
         if (mainArray[r] % 2 == 0 && i.push(mainArray[r])) {
-
             //--STEP 2: pick up the last position value 
             var n = i[(i.length - 1)];
-
             //--STEP 3: print resuslt
             getEle('t5-result').innerHTML = 'Số chẵn cuối cùng là  ' + n;
-
         } else {
             getEle('t5-result').innerHTML = 'Mảng này không chứa số chẵn !!';
         }
     }
+
+
+
 }
 /* End--Task-5: find out the last even value in user array */
 

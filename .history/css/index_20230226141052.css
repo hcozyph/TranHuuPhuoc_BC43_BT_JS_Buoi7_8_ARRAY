@@ -121,13 +121,6 @@
     .btnCustom {
         width: 50%;
     }
-
-    .bt-array-content {
-        padding-top: 250px;
-    }
-    .accordion {
-        padding-top: 250px;
-    }
 }
 
 @media only screen and (min-width: 1024px) {
