@@ -90,11 +90,7 @@
     border-radius: 14%;
 }
 
-#user-btn {
-    height: 41px;
-}
-
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 479px) {
     .btnCustom {
         width: 100%;
     }
@@ -103,21 +99,26 @@
         margin-bottom: 24px;
     }
 }
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .btnCustom {
+        width: 50%;
+    }
 
+    #user-btn {
+        width: 100%;
+    }
+}
 @media only screen and (max-width: 739px) {
     .btnCustom {
         width: 100%;
     }
 }
-
-@media only screen and (min-width: 740px) and (max-width: 1023px) {
-    .btnCustom {
-        width: 50%;
-    }
-}
-
 @media only screen and (min-width: 1024px) {
     .btnCustom {
         width: 250px;
+    }
+
+    #user-btn {
+        min-height: 45px;
     }
 }
